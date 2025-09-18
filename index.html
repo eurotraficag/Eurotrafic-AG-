@@ -1,131 +1,42 @@
 <!DOCTYPE html>
-<html lang="lv">
+<html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eurotrafic AG — Loģistika, metāla konstrukcijas un metināšana</title>
-  <meta name="description" content="Eurotrafic AG — loģistika, metālapstrāde un profesionāli metināšanas pakalpojumi. Izbraukuma darbi Somijā, Baltijā un citur ES.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eurotrafic AG – Logistics, Customs, Warehousing, Welding</title>
+  <meta name="description" content="Eurotrafic AG provides logistics, customs support, warehouse solutions, and professional welding services across the EU.">
   <link rel="icon" href="img/logo.png">
-  <link rel="preload" href=css/style.css" as="style">
-  <link rel="stylesheet" href=css/style.css">
-  <meta property="og:title" content="Eurotrafic AG">
-  <meta property="og:description" content="Loģistika un profesionāli metināšanas risinājumi.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://eurotraficag.com/">
-  <meta property="og:image" content=img/hero-bg.svg">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <div class="wrap">
-      <nav>
-        <div class="brand">
-          <img src="img/logo.png" alt="Eurotrafic AG logo">
-          <span>Eurotrafic AG</span>
-        </div>
-        <div class="lang">
-          <button class="pill active" data-lang="lv">LV</button>
-          <button class="pill" data-lang="en">EN</button>
-        </div>
-      </nav>
+  <header class="hero">
+    <div class="overlay">
+      <h1>Reliable Logistics Solutions Across Europe</h1>
+      <p>Fast and secure freight transport, customs assistance, warehousing, and professional welding services.</p>
     </div>
   </header>
 
-  <main>
-    <section class="hero">
-      <div class="wrap">
-        <span class="badge" data-i18n="badge_lv">Loģistika • Kravu pārvadājumi • Starptautiski</span>
-        <h1 data-i18n="headline_lv">Uzticami loģistikas risinājumi visā Eiropā</h1>
-        <p class="lead" data-i18n="lead_lv">
-          Eurotrafic AG nodrošina ātrus un drošus kravu pārvadājumus, muitas atbalstu un noliktavu risinājumus. 
-          Papildus piedāvājam profesionālus metāla konstrukciju metināšanas darbus ar izbraukumiem uz objektiem Somijā, Baltijā un pārējā ES.
-        </p>
-        <div class="cta">
-          <a class="btn" href="#contact" data-i18n="cta_lv">Sazināties</a>
-          <a class="btn ghost" href="#welding" data-i18n="more_lv">Metināšanas darbi</a>
-        </div>
-        <div class="kpi">
-          <div class="chip" data-i18n="kpi1_lv">10+ gadi nozarē</div>
-          <div class="chip" data-i18n="kpi2_lv">EU/EEA tīkls</div>
-          <div class="chip" data-i18n="kpi3_lv">24/7 atbalsts</div>
-        </div>
-      </div>
+  <main class="content">
+    <section>
+      <h2>Our Services</h2>
+      <ul>
+        <li><strong>Road Freight Transport</strong> – Full and partial loads, express deliveries, temperature-controlled cargo.</li>
+        <li><strong>Customs Solutions</strong> – Consulting, T1/T2 clearance, EU-compliant procedures.</li>
+        <li><strong>Warehousing</strong> – Sorting, packaging, short- and long-term storage.</li>
+        <li><strong>Professional Welding</strong> – MIG/MAG, TIG certified experts, on-site works across the EU.</li>
+      </ul>
     </section>
 
-    <section id="services">
-      <div class="wrap">
-        <div class="grid cols-3">
-          <div class="card">
-            <h3>Auto kravu pārvadājumi</h3>
-            <p>Pilnas un saliktas kravas, eksprespiegādes, temperatūras režīma kontrole.</p>
-          </div>
-          <div class="card">
-            <h3>Muitas risinājumi</h3>
-            <p>Konsultācijas, T1/T2 noformēšana, atbilstība ES prasībām.</p>
-          </div>
-          <div class="card">
-            <h3>Noliktavu pakalpojumi</h3>
-            <p>Pārsaiņošana, komplektēšana, īstermiņa un ilgtermiņa uzglabāšana.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="welding">
-      <div class="wrap">
-        <div class="card">
-          <h2>Profesionāli metināšanas darbi un konstrukcijas</h2>
-          <p>
-            Metāla konstrukciju metināšana pēc pasūtījuma — MIG/MAG, TIG. Sertificēti meistari, materiālu sertifikāti un kvalitātes kontrole. 
-            Pieejami izbraukuma darbi uz objektiem <strong>Somijā</strong>, Baltijā un citur ES.
-          </p>
-          <ul class="list">
-            <li>Konstrukcijas, margas, trepes, iekārtu mezgli</li>
-            <li>Montāža objektā, griešana un sagatavošana</li>
-            <li>Drošības un kvalitātes dokumentācija (ES standarti)</li>
-            <li>Ātri termiņi un skaidras izmaksas</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="wrap contact">
-        <div class="card">
-          <h2>Kontakti</h2>
-          <p><strong>E-pasts:</strong> <a href="mailto:info@eurotraficag.com">info@eurotraficag.com</a><br>
-             <strong>Tālrunis:</strong> <a href="tel:+37120000000">+371 20000000</a><br>
-             <strong>Adrese:</strong> Rīga, Latvija</p>
-          <form action="https://formspree.io/f/mwkzjvaw" method="POST" class="contact-form">
-            <input type="text" name="name" placeholder="Vārds*" required>
-            <input type="email" name="email" placeholder="E-pasts*" required>
-            <textarea name="message" rows="5" placeholder="Ziņa*" required></textarea>
-            <button class="btn" type="submit">Sūtīt</button>
-          </form>
-        </div>
-        <div class="card">
-          <h3>Darba laiks</h3>
-          <p>Pr–Pk: 9:00–18:00<br>Se: pēc iepriekšējas vienošanās<br>Sv: slēgts</p>
-          <h3 style="margin-top:14px">Dokumenti</h3>
-          <p><a href="#">Pakalpojumu līguma paraugs (PDF)</a><br><a href="#">GDPR politika</a></p>
-        </div>
-      </div>
+    <section>
+      <h2>Contact Us</h2>
+      <p>Email: <a href="mailto:info@eurotraficag.com">info@eurotraficag.com</a></p>
+      <p>Phone: +371 20000000</p>
+      <p>Address: Riga, Latvia</p>
     </section>
   </main>
 
   <footer>
-    <div class="wrap">
-      <small>© <span id="year"></span> Eurotrafic AG. Visas tiesības aizsargātas.</small>
-    </div>
+    <p>© 2025 Eurotrafic AG. All rights reserved.</p>
   </footer>
-
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-    // Simple i18n toggle (texts left in LV for now; can fill EN on request)
-    const btns = document.querySelectorAll('.pill');
-    btns.forEach(b=>b.addEventListener('click',()=>{
-      btns.forEach(x=>x.classList.toggle('active',x===b));
-      // Placeholder: could swap content to EN here if needed
-    }));
-  </script>
 </body>
 </html>
